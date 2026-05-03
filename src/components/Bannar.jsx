@@ -27,6 +27,7 @@ const Bannar = () => {
 
                 </div>
 
+                {/* Image */}
                 <div className='animate__animated animate__fadeInRight'>
                     <Image className='rounded-xl w-full h-auto object-cover' src={bannar} alt='bannar' priority/>
                 </div>
@@ -34,5 +35,4 @@ const Bannar = () => {
         </section>
     )
 }
-
 export default Bannar
