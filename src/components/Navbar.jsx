@@ -30,7 +30,7 @@ const Navbar = () => {
 
             <div className="flex items-center justify-between">
 
-                {/* Logo */}
+
                 <div>
                     <h3 className="font-extrabold">
                         <span className="text-green-600 text-3xl md:text-5xl">Qurbani</span>
@@ -38,7 +38,7 @@ const Navbar = () => {
                     </h3>
                 </div>
 
-                {/* Desktop Links */}
+
                 <div className="hidden md:flex items-center gap-10">
                     {navLinks.map(link => (
                         <Link
@@ -51,7 +51,6 @@ const Navbar = () => {
                     ))}
                 </div>
 
-                {/* Desktop Auth */}
                 <div className="hidden md:flex items-center gap-5">
                     {user ? (
                         <>
@@ -77,11 +76,8 @@ const Navbar = () => {
                     )}
                 </div>
 
-                {/* Hamburger Button */}
-                <button
-                    className="md:hidden text-3xl text-gray-700 cursor-pointer"
-                    onClick={() => setMenuOpen(!menuOpen)}
-                >
+                <button className="md:hidden text-3xl text-gray-700 cursor-pointer"
+                    onClick={() => setMenuOpen(!menuOpen)}>
                     {menuOpen ? <RxCross1 /> : <IoReorderThreeOutline />}
                 </button>
 
