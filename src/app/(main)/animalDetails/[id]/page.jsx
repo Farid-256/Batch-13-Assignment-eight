@@ -1,6 +1,8 @@
 import BookingForm from "@/components/BookingForm";
-import Image from "next/image";
-import Link from "next/link";
+import Image from "next/image"
+import Link from "next/link"
+
+// Animals-details-section
 
 const getData = async () => {
     const res = await fetch('https://batch-13-assignment-eight.vercel.app/data.json')
