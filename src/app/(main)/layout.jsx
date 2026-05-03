@@ -14,4 +14,4 @@ const layout = ({children}) => {
     );
 };
 
-export default layout;
+export default layout
