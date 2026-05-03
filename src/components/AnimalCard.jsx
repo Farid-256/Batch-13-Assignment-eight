@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const AnimalCard = ({ animal }) => {
     return (
+        // Animal-card-section
         <div className="rounded-2xl shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300 p-1 border border-amber-300 bg-gray-100">
-
    
             <div className="relative w-full h-52">
                 <Image src={animal.image} alt={animal.name} fill className="object-cover rounded-2xl"/>
