@@ -1,5 +1,7 @@
-import Link from "next/link";
+import Link from "next/link"
 
+
+// Not-found-page
 const NotFound = () => {
     return (
         <div className="flex flex-col justify-center items-center min-h-[80vh] gap-5">
@@ -20,4 +22,4 @@ const NotFound = () => {
     );
 };
 
-export default NotFound;
+export default NotFound
