@@ -58,7 +58,7 @@ const LoginPage = () => {
                     <button type='button' onClick={handleGoogleSignIn} className="w-full bg-blue-600 hover:bg-green-700 text-white py-3 rounded-lg font-semibold transition cursor-pointer">Google Login</button>
                 </form>
 
-                <p className="text-center text-gray-500 mt-6">
+                <p className="text-center text-gray-00 mt-6">
                     Dont have an account?{' '}
                     <Link href="/register" className="text-green-600 font-semibold hover:underline">
                         Register
@@ -70,4 +70,4 @@ const LoginPage = () => {
     );
 };
 
-export default LoginPage;
+export default LoginPage
