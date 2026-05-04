@@ -21,7 +21,7 @@ const RegisterPage = () => {
             email: data.email, // required
             password: data.password, // required
             image: data.photo,
-            callbackURL: "/",
+            callbackURL: "/login",
         })
 
         if (error) {
